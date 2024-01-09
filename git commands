@@ -1,0 +1,54 @@
+Git tutorial for me.
+
+git init {it creates hidden git repositery in your current folder}
+
+git add .  { note : git add . will add all the folders or files present in the selected folder}
+
+git commit -m "first commit"  {it stores the changes commited in your local repository and -m is used to provide additional message}
+
+git branch -M main  {it moves/renames a branch to main}
+
+git remote add origin main "remote link"  {to add remote repository }
+
+git push -u origin main   { to push the selected the local repo to the remote repo }
+
+if says refs error 
+(failed to push  some refs to)
+
+do these ::
+
+git pull origin (your-branch)
+
+git pull --rebase origin (branch-namee)
+
+
+
+
+
+Additionally :
+
+for creating username and loggning in
+ 
+git config --global user.name "Ritesh-22893"
+
+git config --global user.email "riteshpokhrel73@gmail.com"
+
+
+To check added credentials :
+
+git config --list
+
+
+for viewing current status in git 
+
+use git status
+
+
+
+
+on addition to these :
+
+git remote -v
+
+git remote show origin 
+
