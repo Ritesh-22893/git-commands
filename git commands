@@ -6,9 +6,9 @@ git add .  { note : git add . will add all the folders or files present in the s
 
 git commit -m "first commit"  {it stores the changes commited in your local repository and -m is used to provide additional message}
 
-git branch -M main  {it moves/renames a branch to main}
-
 git remote add origin main "remote link"  {to add remote repository }
+
+git branch -M main  {it moves/renames a branch to main}
 
 git push -u origin main   { to push the selected the local repo to the remote repo }
 
